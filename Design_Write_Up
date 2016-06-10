@@ -1,0 +1,13 @@
+Our database follows the following schema:
+
+	UserData: userId, userName
+	UserProfile: userId, userName, highestScore, highestRank, totalCatCoins
+	HighScores: userId, userName, rank, score
+	Shop: itemId, decorationName, price, category
+	Cats: userId, userName, catName
+	Inventory: userId, userName, itemId,  inUse
+
+We utilize the database to create new users if necessary and to store information regarding the user.  We store information on their highest score, highest rank, total number of coins, their cats, and their inventory items.  We also have the shop storing the possible items that can be purchased. 
+
+We query information regarding the user and also add in rows when necessary (for a new cat).
+
