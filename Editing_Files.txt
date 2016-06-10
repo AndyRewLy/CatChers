@@ -1,0 +1,11 @@
+Editing Through Eclipse
+ 
+ Utilizing Eclipse you can go ahead and import the Cat-chers.zip file
+  Go to File > Import  and select “Existing Projects Into Workspace”.  Click next.
+Select the archive file which will be the Cat-chers.zip file.
+To Edit the Database you want to connect to you can go into the DBConnection.java file and editing the user/pw/servername to fit your needs
+You can either run “Cat-chers” through Eclipse or you can go ahead and make an executable .jar file.
+
+Creating the Executable .jar File
+ Go to File > Export.  Under Java select Runnable Jar File Browse to name a file that you want to call it.  
+Under library handling select Package required libraries into generated JAR. click Finish.
